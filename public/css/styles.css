@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: #f4f4f4;
+  }
+  
+  header, nav, h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+    form button {
+        background: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    form button:hover {
+        background: #0056b3;
+    }
